@@ -1,0 +1,220 @@
+
+/* SM (Small) Device: 576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 473px;
+    height: 219px;
+  }
+  .clock_container {
+    width: 380px;
+    height: 126px;
+  }
+  .clock_container p {
+    font-size: 42px;
+    padding: 0px 0;
+  }
+  .clock_container span {
+    font-size: 13px;
+    top: -26px;
+  }
+  .colon::before {
+    top: 14px;
+  }
+  .colon::after {
+    top: 33px;
+  }
+  .clock_container p::first-letter {
+    letter-spacing: 4px;
+  }
+  .container .bottom {
+    height: 10px;
+  }
+}
+/* TS (Tablet Small) Device: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+  .container {
+    width: 415px;
+    height: 183px;
+  }
+  .clock_container {
+    width: 283px;
+    height: 86px;
+  }
+  .clock_container p {
+    font-size: 29px;
+    padding: 0 0;
+    margin-top: -11px;
+  }
+  .clock_container span {
+    font-size: 11px;
+    top: -28px;
+  }
+  .colon {
+    width: 2px;
+  }
+  .colon::before {
+    top: 0px;
+  }
+  .colon::after {
+    top: 12px;
+  }
+  .clock_container p::first-letter {
+    letter-spacing: 3px;
+  }
+  .container .bottom {
+    height: 9px;
+  }
+}
+/* ML (Mobile Large) Device: 425px. */
+@media only screen and (min-width: 425px) and (max-width: 479px) {
+  .container {
+    width: 334px;
+    height: 142px;
+  }
+  .clock_container {
+    width: 227px;
+    height: 70px;
+  }
+  .clock_container p {
+    font-size: 20px;
+    padding: 0 0;
+    margin-top: -11px;
+  }
+  .clock_container span {
+    font-size: 7px;
+    top: -22px;
+  }
+  .colon {
+    width: 2px;
+  }
+  .colon::before {
+    top: -2px;
+    height: 2px;
+  }
+  .colon::after {
+    top: 5px;
+    height: 2px;
+  }
+  .clock_container p::first-letter {
+    letter-spacing: 2px;
+  }
+  .container .bottom {
+    height: 8px;
+  }
+}
+
+/* MM (Mobile Medium) Device: 375px. */
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .container {
+    width: 312px;
+    height: 130px;
+  }
+  .clock_container {
+    width: 227px;
+    height: 70px;
+  }
+  .clock_container p {
+    font-size: 13px;
+    padding: 0 0;
+    margin-top: -6px;
+  }
+  .clock_container span {
+    font-size: 6px;
+    top: -17px;
+    letter-spacing: 1px;
+  }
+  .colon {
+    width: 2px;
+  }
+  .colon::before {
+    top: -1px;
+    height: 1.5px;
+  }
+  .colon::after {
+    top: 4px;
+    height: 1.5px;
+  }
+  .clock_container p::first-letter {
+    letter-spacing: 2px;
+  }
+  .container .bottom {
+    height: 6px;
+  }
+}
+/* MS (Mobile Small) Device: 320px. */
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .container {
+    width: 270px;
+    height: 109px;
+  }
+  .clock_container {
+    width: 178px;
+    height: 48px;
+  }
+  .clock_container p {
+    font-size: 10px;
+    padding: 0 0;
+    margin-top: -6px;
+  }
+  .clock_container span {
+    font-size: 4.5px;
+    top: -13px;
+    letter-spacing: 0.5px;
+  }
+  .colon {
+    width: 1px;
+  }
+  .colon::before {
+    top: -2px;
+    height: 1px;
+  }
+  .colon::after {
+    top: 1px;
+    height: 1px;
+  }
+  .clock_container p::first-letter {
+    letter-spacing: 2px;
+  }
+  .container .bottom {
+    height: 5px;
+  }
+}
+
+/* MXS (Mobile Extra Small) Device: 240px. */
+@media only screen and (min-width: 240px) and (max-width: 319px) {
+  .container {
+    width: 219px;
+    height: 100px;
+  }
+  .clock_container {
+    width: 157px;
+    height: 42px;
+  }
+  .clock_container p {
+    font-size: 7px;
+    padding: 0 0;
+    margin-top: -6px;
+  }
+  .clock_container span {
+    font-size: 3px;
+    top: -10px;
+    letter-spacing: 0.5px;
+  }
+  .colon {
+    width: 1px;
+  }
+  .colon::before {
+    top: -3.5px;
+    height: 1px;
+  }
+  .colon::after {
+    top: -1.5px;
+    height: 1px;
+  }
+  .clock_container p::first-letter {
+    letter-spacing: 2px;
+  }
+  .container .bottom {
+    height: 5px;
+  }
+}
